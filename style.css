@@ -1,0 +1,11 @@
+.btnCart {
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 18px 33px;
+}
+.btnCart img{
+    width: 24px;
+    height: 24px;
+}
