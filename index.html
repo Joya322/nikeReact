@@ -15,17 +15,17 @@
     />
 
     <!-- custom css link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- header started -->
-    <header style="background-color: #fff9f4">
+    <header class="mb-5" style="background-color: #fff9f4">
       <!-- navbar started -->
       <section class="py-2" id="navbar">
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container">
-            <a class="navbar-brand w-25" href="#">
-              <img src="./icons/Logo.png" alt="logo" class="img-fluid" />
+            <a class="navbar-brand w-50" href="#">
+              <img src="./icons/Logo.png" alt="logo" class="img-fluid w-75" />
             </a>
             <button
               class="navbar-toggler"
@@ -72,29 +72,33 @@
       <!-- banner started -->
       <section id="banner">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
+          <div class="row justify-content-around flex-row-reverse">
+            <div class="col-12 col-sm-6 col-lg-5 order-last">
               <img
                 src="./images/bannerImg.png"
                 alt="Banner Image"
-                class="d-block w-100"
+                class="img-fluid"
               />
             </div>
 
             <div
-              class="col-lg-7 d-flex justify-content-center align-items-center ps-5"
+              class="col-12 col-sm-7 col-lg-5 d-flex justify-content-center align-items-center ps-5 order-first"
             >
               <div class="ms-auto">
                 <h1 class="text-uppercase fw-bolder fs-1">
-                  <span style="color: #fa804c">Nike React</span><br />
-                  <span style="color: #363958">Infinity Run 2</span>
+                  <span class="textOrange">Nike React</span><br />
+                  <span class="textIndigo">Infinity Run 2</span>
                 </h1>
                 <p class="w-75">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
                 <button class="btn btnCart">
-                  <img src="./icons/btnCart.png" alt="Button Cart" class="me-2"/>BUY NOW
+                  <img
+                    src="./icons/btnCart.png"
+                    alt="Button Cart"
+                    class="me-2"
+                  />BUY NOW
                 </button>
               </div>
             </div>
@@ -115,6 +119,110 @@
       </section>
       <!-- banner ended -->
     </header>
+    <!-- header ended -->
+
+    <!-- main started -->
+    <main class="py-5" style="background-color: #e5e5e5">
+      <section id="casualShoes">
+        <div class="container">
+          <h3 class="sectionTitle ms-2">CASUAL SHOES</h3>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+            <div class="col">
+              <div class="card h-100 p-3">
+                <div class="cardImg">
+                  <img
+                    src="./images/casual1.png"
+                    class="card-img-top w-75 img-fluid d-block m-auto"
+                    alt="Casual1"
+                  />
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title textIndigo fw-bold">Nike Shoe</h5>
+
+                  <p class="card-text fs-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="textOrange">$234</h3>
+                    <button class="btn btnCart">
+                      <img
+                        src="./icons/btnCart.png"
+                        alt="Button Cart"
+                        class="me-2"
+                      />BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-3">
+                <div class="cardImg">
+                  <img
+                    src="./images/casual1.png"
+                    class="card-img-top w-75 img-fluid d-block m-auto"
+                    alt="Casual1"
+                  />
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title textIndigo fw-bold">Sneakers Skate Shoe </h5>
+
+                  <p class="card-text fs-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="textOrange">$234</h3>
+                    <button class="btn btnCart">
+                      <img
+                        src="./icons/btnCart.png"
+                        alt="Button Cart"
+                        class="me-2"
+                      />BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-3">
+                <div class="cardImg">
+                  <img
+                    src="./images/casual1.png"
+                    class="card-img-top w-75 img-fluid d-block m-auto"
+                    alt="Casual1"
+                  />
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title textIndigo fw-bold">Sneakers Basketball shoe</h5>
+
+                  <p class="card-text fs-6">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="textOrange">$234</h3>
+                    <button class="btn btnCart">
+                      <img
+                        src="./icons/btnCart.png"
+                        alt="Button Cart"
+                        class="me-2"
+                      />BUY NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main ended -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

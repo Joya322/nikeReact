@@ -3,9 +3,19 @@
   border-radius: 10px;
   color: #ffffff;
   font-size: 16px;
-  padding: 18px 33px;
+  padding: 10px 20px;
 }
 .btnCart img{
     width: 24px;
     height: 24px;
+}
+.cardImg{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.textOrange{
+    color: #FA804C;
+}
+.textIndigo{
+    color: #363958;
 }
